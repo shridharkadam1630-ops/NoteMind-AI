@@ -1,0 +1,141 @@
+*{
+    margin:0;
+     padding:0;
+      box-sizing:border-box;
+}
+body{
+     font-family:Arial, sans-serif;
+    background:#f7f9fc;
+}
+.header{
+      display:flex;
+    align-items:center;
+    justify-content:space-between;
+     padding:20px 40px;
+    background:white;
+     box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+.logo-area{
+    display:flex;
+     align-items:center;
+    gap:15px;
+}
+.logo{
+     width:80px;
+}
+.title h1{
+    color:#172554;
+       font-size:30px;
+}
+
+.title p{
+    color:#666;
+      margin-top:5px;
+    font-size:15px;
+}
+nav a{
+    text-decoration:none;
+    color:#172554;
+        margin-left:25px;
+    font-weight:bold;
+}
+nav a:hover{
+    color:#2563eb;
+}
+.main{
+    text-align:center;
+        margin-top:70px;
+    padding:20px;
+}
+.main h1{
+    font-size:52px;
+    color:#172554;
+}
+.main h2{
+       font-size:32px;
+    color:#2563eb;
+       margin-top:10px;
+}
+.main p{
+    max-width:700px;
+     margin:25px auto;
+    font-size:18px;
+      line-height:1.8;
+    color:#555;
+}
+.try-button{
+     background:#2563eb;
+      color:white;
+       padding:15px 40px;
+        text-decoration: none; 
+      font-size:20px;
+      border:none;
+      border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+.try-button:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+.bottom-text{
+    margin-top:70px;
+    color:#172554;
+    font-size:30px;
+}
+.features{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+    margin:50px auto;
+    width:90%;
+}
+.box{
+    background:white;
+    width:250px;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+.box:hover{
+    transform:translateY(-5px);
+}
+.box h3{
+    color:#1e3a8a;
+    margin-bottom:15px;
+}
+.box p{
+    color:#555;
+    line-height:1.6;
+}
+.footer{
+    background:#172554;
+    color:white;
+    text-align:center;
+    padding:18px;
+    margin-top:60px;
+}
+@media(max-width:768px){
+.header{
+    flex-direction:column;
+    text-align:center;
+}
+nav{
+    margin-top:15px;
+}
+nav a{
+    display:inline-block;
+    margin:10px;
+}
+.main h1{
+    font-size:40px;
+}
+.main h2{
+    font-size:26px;
+}
+.main p{
+    font-size:16px;
+}
+}
